@@ -13,9 +13,14 @@ Install SmartHouse with yarn
   yarn
 ```
 
+Link assests to the project
+    
+```npx react-native-asset
+```
+
 Make sure you have a [react-native](https://reactnative.dev/docs/environment-setup) dev setup in your system
 ```bash
   yarn react-native run-android //android
   yarn react-native run-ios //ios
 ```
-    
+

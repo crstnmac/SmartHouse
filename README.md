@@ -15,7 +15,14 @@ Install SmartHouse with yarn
 
 Link assests to the project
     
-```npx react-native-asset
+```bash
+  npx react-native-asset
+```
+
+To build svg assests
+
+```bash
+  yarn react-native-vector-image generate
 ```
 
 Make sure you have a [react-native](https://reactnative.dev/docs/environment-setup) dev setup in your system

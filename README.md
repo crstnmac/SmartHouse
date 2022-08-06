@@ -7,7 +7,7 @@
 ## Installation
 
 
-![img](./preivew.png)
+![img](./preview.png)
 
 Install dependencies with yarn
 

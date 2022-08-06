@@ -22,15 +22,17 @@ const AppRoot = () => {
             tabBarScrollEnabled: true,
             tabBarIndicator: () => null,
             tabBarStyle: {
+              paddingTop: 80,
               backgroundColor: '#000',
             },
             tabBarItemStyle: {
               width: 'auto',
               alignItems: 'flex-start',
+              paddingLeft: 28,
             },
             tabBarActiveTintColor: '#fff',
             tabBarLabelStyle: {
-              fontSize: 34,
+              fontSize: 30,
               fontFamily: 'Satoshi-Black',
               textTransform: 'capitalize',
             },

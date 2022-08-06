@@ -6,6 +6,9 @@
 
 ## Installation
 
+
+![img](./preivew.png)
+
 Install SmartHouse with yarn
 
 ```bash

@@ -14,8 +14,8 @@ const LightsHeader = ({dark, title, toggleSize}: any) => {
   if (dark) classNames.push('text-white')
 
   return (
-    <StyledView className="flex flex-row">
-      <Text className={classNames.join(' ')} style={fontStyle.medium}>
+    <StyledView className="flex flex-row items-center">
+      <Text className={classNames.join(' ')} style={fontStyle.bold}>
         {title}
       </Text>
       <View className="ml-auto">

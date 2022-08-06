@@ -15,15 +15,15 @@ const Toggle = ({isOn, setIsOn, toggleSize = 25}: any) => (
     renderOffIndicator={() => (
       <Text
         className="text-black"
-        style={{...fontStyle.bold, fontSize: toggleSize / 2}}>
-        off
+        style={{...fontStyle.bold, fontSize: toggleSize / 2.5}}>
+        OFF
       </Text>
     )}
     renderOnIndicator={() => (
       <Text
         className="text-black"
-        style={{...fontStyle.bold, fontSize: toggleSize / 2}}>
-        on
+        style={{...fontStyle.bold, fontSize: toggleSize / 2.5}}>
+        ON
       </Text>
     )}
   />

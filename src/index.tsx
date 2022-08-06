@@ -22,7 +22,7 @@ const AppRoot = () => {
             tabBarScrollEnabled: true,
             tabBarIndicator: () => null,
             tabBarStyle: {
-              paddingTop: 80,
+              paddingTop: 40,
               backgroundColor: '#000',
             },
             tabBarItemStyle: {

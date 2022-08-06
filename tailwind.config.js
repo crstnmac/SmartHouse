@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('./src/utils/colors')
+
 module.exports = {
   content: [
     './App.{js,jsx,ts,tsx}',
@@ -7,6 +9,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors,
       fontFamily: {
         satoshiRegular: ['Satoshi-Regular', 'sans-serif'],
         satoshiBold: ['Satoshi-Bold', 'sans-serif'],

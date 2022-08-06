@@ -9,7 +9,7 @@
 
 ![img](./preivew.png)
 
-Install SmartHouse with yarn
+Install dependencies with yarn
 
 ```bash
   cd SmartHouse

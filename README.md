@@ -7,7 +7,7 @@
 ## Installation
 
 
-<img src="https://github.com/crstnmac/SmartHouse/blob/main/preview.png" width=300 height=300>
+<img src="https://github.com/crstnmac/SmartHouse/blob/main/preview.png" width=300 height=600>
 
 Install dependencies with yarn
 

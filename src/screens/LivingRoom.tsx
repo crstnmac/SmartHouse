@@ -42,7 +42,7 @@ const LivingRoom: React.FC = () => {
           </Box>
         </StyledView>
         <StyledView className="pt-3">
-          <StyledView className="flex flex-1 text-center h-60 bg-slate-300 rounded-3xl">
+          <StyledView className="flex flex-1 text-center h-60 bg-kashmir-blue-100 rounded-3xl">
             <ImageBackground
               source={bgImage}
               resizeMode="cover"

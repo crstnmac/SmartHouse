@@ -34,3 +34,11 @@ Make sure you have a [react-native](https://reactnative.dev/docs/environment-set
   yarn react-native run-ios //ios
 ```
 
+
+If styles dont work use the below cmd to hardclean the proj
+
+`In Windows for Android`
+
+```
+del %appdata%\Temp\react-native-* & cd android & gradlew clean & cd .. & del node_modules/ & npm cache clean --force & yarn install & react-native run-android
+```
